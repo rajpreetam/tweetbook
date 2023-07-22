@@ -33,7 +33,7 @@ const LoginForm = () => {
                 router.push('/');
             } else {
                 toast.error(res?.error);
-            };
+            }
             
             setLoading(false);
         }
